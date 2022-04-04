@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso de HTML con JS</title>
+</head>
+<body>
+    <header>
+        <h1>Triángulo Isósceles</h1>
+        <p>Este es una práctica de integración de HTML y JS aplicado hacia el cálculo de áreas y perímetros para un triángulo Isósceles</p>
+        <h2>¿Qué es un triángulo Isósceles?</h2>
+        <p>En geometría, un triángulo isósceles es un tipo de triángulo que tiene, al menos, dos lados de igual longitud. 
+            Al ángulo formado por los lados de igual longitud se le denomina ángulo en el vértice y al lado opuesto a él, ángulo base.</p>
+    </header>
+    <section>
+        <form>
+            <label for="ladoUno">Ingrese el valor del lado 1 (cm)</label>
+            <input id="ladoUno" type="number"/>
+            <label for="ladoDos">Ingrese el valor del lado 2 (cm)</label>
+            <input id="ladoDos" type="number"/>
+            <label for="ladoBase">Ingrese el valor de la base (cm)</label>
+            <input id="ladoBase" type="number"/>
+            <br/>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Área
+            </button>
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Perímetro
+            </button>
+        </form>
+    </section>
+
+    <script src="./triangulo.js">
+    </script>
+</body>
+</html>
