@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizar Salarios</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio de Análisis de Salarios</h1>
+        <p>En el presente ejercicio se tratará de reforzar los conocimientos adquiridos en los anteriores proyectos</p>
+    </header>
+    <section>
+        <h2>Ingreso de Personas</h2>
+        <label for="InputNombre">Nombre: </label>
+        <input id="InputNombre" type="text"/>
+        <label for="InputSueldo">Sueldo: </label>
+        <input id="InputSueldo" type="text"/>
+        <label for="InputSueldo">$</label>
+        <button type="button" onclick="agregarPersona()">Agregar Persona</button>
+        <p id="PMensajeAgregarPersona"></p>
+    </section>
+    <section>
+        <p id="PListaPersonas"></p>
+        <p id="PListaPersonasTop"></p>
+    </section>
+    <section>
+        <button type="button" onclick="mostrarPersonas()">
+            Mostrar Personas
+        </button>
+        <button type="button" onclick="estadisticos()">
+            Estadísticos
+        </button>
+    </section>
+    <section>
+        <p id="PPersonas"></p>
+        <p id="PEstadisticos"></p>
+    </section>
+    <script src="./salarios.js"></script>
+    <script src="./analisis.js"></script>
+</body>
+</html>
