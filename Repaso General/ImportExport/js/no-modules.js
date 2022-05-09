@@ -1,0 +1,1 @@
+console.log('Se debería cargar lo que esté aquí en caso de que el navegador no soporte modulos');
